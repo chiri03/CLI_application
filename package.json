@@ -1,0 +1,28 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristinaAI22/CLI-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristinaAI22/CLI-application/issues"
+  },
+  "homepage": "https://github.com/CristinaAI22/CLI-application#readme",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nodemon": "^3.0.1",
+    "uuid": "^9.0.1",
+    "yargs": "^17.7.2"
+  }
+}
